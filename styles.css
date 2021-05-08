@@ -21,7 +21,7 @@
   --decorator-outer-offset-left: -5.5px;
   --decorator-border-width: 1px;
   --decorator-outer-dim: 9px;
-  --decorator-border: 1px solid #ccc;
+  --decorator-border: 1px solid #1e81b0;
 
   --row-blocks-padding-top: 5pt;
   --date-block-width: 0.6in;
@@ -41,12 +41,13 @@ body {
 }
 
 h1 {
+  margin: 0;
   color: #063970;
 }
 h2,
 h3 {
   margin: 0;
-  color: #154c79;
+  color: black;
 }
 
 li {
@@ -66,7 +67,7 @@ li {
   width: var(--sidebar-width);
   height: 100%;
   padding: 0.6in var(--sidebar-horizontal-padding);
-  background-color: #154c79;
+  background-color: #063970;
   font-size: 8.5pt;
 }
 
@@ -114,7 +115,7 @@ h2 {
   left: calc((var(--date-block-width) + var(--decorator-horizontal-margin)));
   font-weight: 600;
   font-size: 11pt;
-  color: #21130d;
+  color: #063970;
 }
 
 #main h2 > i {
@@ -215,7 +216,7 @@ h2 {
   width: var(--decorator-outer-dim);
   height: var(--decorator-outer-dim);
   border-radius: calc(var(--decorator-outer-dim) / 2);
-  background-color: black;
+  background-color: #063970;
 }
 
 .decorator::after {
@@ -233,7 +234,7 @@ h2 {
   border-radius: calc(
     (var(--decorator-outer-dim) - (var(--decorator-border-width) * 2)) / 2
   );
-  background-color: black;
+  background-color: #063970;
 }
 
 .blocks:last-child .decorator {
@@ -336,6 +337,8 @@ h2 {
 #sidebar h1 {
   font-weight: 600;
   font-size: 11pt;
+  color: white;
+  margin-top: 1in;
 }
 
 .side-block {
@@ -348,11 +351,13 @@ h2 {
   font-family: "Source Code Pro";
   font-weight: 400;
   line-height: 1.75;
+  color: white;
 }
 
 #contact li > i {
   width: 9pt; /* for text alignment */
   text-align: right;
+  color: white;
 }
 
 #skills {
@@ -362,4 +367,5 @@ h2 {
 #skills ul {
   margin: 0.05in 0 0.15in;
   padding: 0;
+  color: white;
 }
