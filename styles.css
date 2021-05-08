@@ -64,7 +64,7 @@ li {
   width: var(--sidebar-width);
   height: 100%;
   padding: 0.6in var(--sidebar-horizontal-padding);
-  background-color: #f2f2f2;
+  background-color: white;
   font-size: 8.5pt;
 }
 
@@ -213,7 +213,7 @@ h2 {
   width: var(--decorator-outer-dim);
   height: var(--decorator-outer-dim);
   border-radius: calc(var(--decorator-outer-dim) / 2);
-  background-color: #fff;
+  background-color: black;
 }
 
 .decorator::after {
@@ -231,7 +231,7 @@ h2 {
   border-radius: calc(
     (var(--decorator-outer-dim) - (var(--decorator-border-width) * 2)) / 2
   );
-  background-color: #555;
+  background-color: black;
 }
 
 .blocks:last-child .decorator {
