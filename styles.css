@@ -55,7 +55,7 @@ li {
   float: left;
   width: var(--main-width);
   padding: 0.25in 0.25in 0 0.25in;
-  font-size: 7pt;
+  font-size: 8pt;
 }
 
 #sidebar {
@@ -85,8 +85,8 @@ h2 {
 }
 
 #title h1 {
-  font-weight: 500;
-  font-size: 18pt;
+  font-weight: 600;
+  font-size: 20pt;
   line-height: 1.5;
 }
 
@@ -96,7 +96,7 @@ h2 {
 }
 
 .subtitle {
-  font-size: 8pt;
+  font-size: 10pt;
 }
 
 /*** categorial blocks ***/
@@ -110,9 +110,9 @@ h2 {
   top: var(--row-blocks-padding-top);
   /* XXX: 0.5px for aligning fx printing */
   left: calc((var(--date-block-width) + var(--decorator-horizontal-margin)));
-  font-weight: 400;
+  font-weight: 600;
   font-size: 11pt;
-  color: #555;
+  color: black;
 }
 
 #main h2 > i {
@@ -332,7 +332,7 @@ h2 {
 /* sidebar */
 
 #sidebar h1 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 11pt;
 }
 
@@ -360,22 +360,4 @@ h2 {
 #skills ul {
   margin: 0.05in 0 0.15in;
   padding: 0;
-}
-
-#disclaimer {
-  position: absolute;
-  bottom: var(--sidebar-horizontal-padding);
-  right: var(--sidebar-horizontal-padding);
-  font-size: 7.5pt;
-  font-style: italic;
-  line-height: 1.1;
-  text-align: right;
-  color: #777;
-}
-
-#disclaimer code {
-  color: #666;
-  font-family: "Source Code Pro";
-  font-weight: 400;
-  font-style: normal;
 }
