@@ -68,7 +68,7 @@ li {
   height: 100%;
   padding: 0.6in var(--sidebar-horizontal-padding);
   background-color: #063970;
-  font-size: 8.5pt;
+  font-size: 10pt;
 }
 
 /* main */
@@ -113,8 +113,8 @@ h2 {
   top: var(--row-blocks-padding-top);
   /* XXX: 0.5px for aligning fx printing */
   left: calc((var(--date-block-width) + var(--decorator-horizontal-margin)));
-  font-weight: 600;
-  font-size: 11pt;
+  font-weight: 800;
+  font-size: 12pt;
   color: #063970;
 }
 
@@ -368,4 +368,8 @@ h2 {
   margin: 0.05in 0 0.15in;
   padding: 0;
   color: white;
+}
+
+#subtitle {
+  font-weight: 800;
 }
